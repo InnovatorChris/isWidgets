@@ -1,0 +1,452 @@
+{
+	"destination": "detailScreen",
+	"width": 600,
+	"height": 420,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Group Box": {
+					"type": "groupBox",
+					"top": 30,
+					"left": 10,
+					"width": 192,
+					"height": 311,
+					"stroke": "#0000CD",
+					"class": "Label_12",
+					"text": "Object Attribute Date 1"
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 32,
+					"left": 220,
+					"width": 192,
+					"height": 311,
+					"stroke": "#0000CD",
+					"class": "Label_12",
+					"text": "Object Attribute Date 2"
+				},
+				"Title": {
+					"type": "text",
+					"top": 4,
+					"left": 100,
+					"width": 250,
+					"height": 19,
+					"stroke": "#0000CD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Date Widget Demo & Tester"
+				}
+			}
+		},
+		{
+			"objects": {
+				"formDate": {
+					"type": "subform",
+					"top": 88,
+					"left": 22,
+					"width": 120,
+					"height": 18,
+					"dataSource": "Form:C1466.myEntity",
+					"detailForm": "IS_DateEntry",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/formDate.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange"
+					],
+					"hideFocusRing": false
+				},
+				"entryDate": {
+					"type": "subform",
+					"top": 88,
+					"left": 233,
+					"width": 120,
+					"height": 18,
+					"dataSource": "Form:C1466.myEntity",
+					"detailForm": "IS_DateEntry",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/entryDate.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange"
+					]
+				},
+				"formDate_Picker": {
+					"type": "subform",
+					"top": 138,
+					"left": 22,
+					"width": 168,
+					"height": 190,
+					"dataSource": "Form:C1466.myEntity",
+					"detailForm": "IS_DatePicker",
+					"hideFocusRing": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/formDate_Picker.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"entryDate_Picker": {
+					"type": "subform",
+					"top": 138,
+					"left": 232,
+					"width": 168,
+					"height": 190,
+					"dataSource": "Form:C1466.myEntity",
+					"detailForm": "IS_DatePicker",
+					"hideFocusRing": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/entryDate_Picker.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"btnTrace": {
+					"type": "button",
+					"top": 320,
+					"left": 521,
+					"width": 66,
+					"height": 25,
+					"text": "Trace",
+					"class": "Label_14",
+					"focusable": false,
+					"method": "ObjectMethods/btnTrace.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"btnBump": {
+					"type": "button",
+					"top": 72,
+					"left": 619,
+					"width": 105,
+					"height": 27,
+					"text": "Bump Dates",
+					"class": "Label_14",
+					"focusable": false,
+					"method": "ObjectMethods/btnBump.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 34,
+					"left": 744,
+					"width": 272,
+					"height": 509,
+					"text": "This tests and demonstrates the abilities of the IS_DateEntry and IS_DatePicker widgets.\r\rThey are capable of working on Object entity (date) or a traditional Date variable. \r\rThe configuration is done in the SCRIPT of the container object (on this parent form).\rIt is very simple: if \"on load\" then call IS_DATEENTRY_INIT( ) as shown in the samples.\r\rIf the bound variable is a DATE VARIABLE, then this call includes only up to the *.\r\rIf the date we need to manipulate is an attribute of an object (i.e. myEntity.thisDate)\r• Set these attributes in the CONTAINER:\r    • Expression Type: OBJECT\r    • Variable or Expression: the name of the object that directly contains the attribute. In this example:  'myEntity'\r\rThen the CONTAINER's script must pass the name of the date attribute as the last parameter in the IS_DATEENTRY_INIT( ) call.\rSee the sample OBJECT VARIABLEs — top two groups of samples."
+				},
+				"DisplayedMonth": {
+					"type": "text",
+					"top": 57,
+					"left": 22,
+					"width": 38,
+					"height": 19,
+					"textAlign": "left",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Date"
+				},
+				"DisplayedMonth1": {
+					"type": "text",
+					"top": 57,
+					"left": 232,
+					"width": 38,
+					"height": 19,
+					"textAlign": "left",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Date"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 34,
+					"left": 443,
+					"width": 144,
+					"height": 211,
+					"text": "NOTE: Changing the date in the widgets BEEPS because it is verifying that _msgUpdate has been  received by the container object. The BEEP is in the container object's script. You can use this event to process needed reactions to the date change."
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 58,
+					"left": 63,
+					"width": 97,
+					"height": 16,
+					"dataSource": "Form:C1466.myEntity.formDate",
+					"dataSourceTypeHint": "date",
+					"class": "Label_12",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					],
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"dateFormat": "systemMedium"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 58,
+					"left": 273,
+					"width": 97,
+					"height": 16,
+					"dataSource": "Form:C1466.myEntity.entryDate",
+					"dataSourceTypeHint": "date",
+					"class": "Label_12",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					],
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"dateFormat": "systemMedium"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 118,
+					"left": 63,
+					"width": 97,
+					"height": 16,
+					"dataSource": "Form:C1466.myEntity.formPicker1",
+					"dataSourceTypeHint": "date",
+					"class": "Label_12",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [],
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"focusable": false
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 118,
+					"left": 273,
+					"width": 97,
+					"height": 16,
+					"dataSource": "Form:C1466.myEntity.formPicker2",
+					"dataSourceTypeHint": "date",
+					"class": "Label_12",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [],
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"focusable": false
+				},
+				"procDate1": {
+					"type": "subform",
+					"top": 388,
+					"left": 22,
+					"width": 120,
+					"height": 18,
+					"dataSource": "date1_Var",
+					"detailForm": "IS_DateEntry",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/procDate1.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange"
+					],
+					"dataSourceTypeHint": "date"
+				},
+				"label_ProcVar1": {
+					"type": "text",
+					"top": 368,
+					"left": 22,
+					"width": 65,
+					"height": 18,
+					"textAlign": "left",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Proc Var 1"
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 368,
+					"left": 103,
+					"width": 77,
+					"height": 16,
+					"dataSource": "date1_Var",
+					"dataSourceTypeHint": "date",
+					"class": "Label_12",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					],
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"dateFormat": "systemMedium"
+				},
+				"procDate2": {
+					"type": "subform",
+					"top": 388,
+					"left": 232,
+					"width": 120,
+					"height": 18,
+					"dataSource": "date2_Var",
+					"detailForm": "IS_DateEntry",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/procDate2.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange"
+					],
+					"dataSourceTypeHint": "date"
+				},
+				"label_ProcVar2": {
+					"type": "text",
+					"top": 368,
+					"left": 232,
+					"width": 65,
+					"height": 18,
+					"textAlign": "left",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Proc Var 2"
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 368,
+					"left": 312,
+					"width": 77,
+					"height": 16,
+					"dataSource": "date2_Var",
+					"dataSourceTypeHint": "date",
+					"class": "Label_12",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					],
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"dateFormat": "systemMedium"
+				},
+				"btnNewEntity": {
+					"type": "button",
+					"top": 365,
+					"left": 391,
+					"width": 196,
+					"height": 23,
+					"text": "Simulate Different Entity",
+					"class": "Label_14",
+					"focusable": false,
+					"method": "ObjectMethods/btnNewEntity.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			},
+			"entryOrder": [
+				"formDate",
+				"entryDate",
+				"procDate1",
+				"procDate2",
+				"btnNewEntity"
+			]
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 146,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Preferences4D>
+
+  <BuildApp>
+    <BuildCompiled>False</BuildCompiled>
+    <IncludeAssociatedFolders>True</IncludeAssociatedFolders>
+    <BuildComponent>True</BuildComponent>
+    <BuildApplicationSerialized>False</BuildApplicationSerialized>
+    <RuntimeVL>
+      <LastDataPathLookup>ByAppName</LastDataPathLookup>
+    </RuntimeVL>
+    <SourcesFiles>
+      <RuntimeVL>
+        <RuntimeVLIncludeIt>True</RuntimeVLIncludeIt>
+      </RuntimeVL>
+      <CS>
+        <ServerIncludeIt>False</ServerIncludeIt>
+        <ClientMacIncludeIt>False</ClientMacIncludeIt>
+        <ClientWinIncludeIt>False</ClientWinIncludeIt>
+      </CS>
+    </SourcesFiles>
+    <CS>
+      <BuildServerApplication>False</BuildServerApplication>
+      <LastDataPathLookup>ByAppName</LastDataPathLookup>
+      <BuildCSUpgradeable>False</BuildCSUpgradeable>
+      <CurrentVers>1</CurrentVers>
+      <HardLink></HardLink>
+      <MacCompiledDatabaseToWinIncludeIt>False</MacCompiledDatabaseToWinIncludeIt>
+      <MacCompiledDatabaseToWin></MacCompiledDatabaseToWin>
+    </CS>
+    <BuildApplicationName>isWidgets</BuildApplicationName>
+    <BuildMacDestFolder>::isWidgets_Build:</BuildMacDestFolder>
+    <ArrayExcludedPluginName>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedPluginName>
+    <ArrayExcludedPluginID>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedPluginID>
+    <ArrayExcludedComponentName>
+      <ItemsCount>7</ItemsCount>
+      <Item1>4D SVG</Item1>
+      <Item2>4D Progress</Item2>
+      <Item3>4D ViewPro</Item3>
+      <Item4>4D NetKit</Item4>
+      <Item5>4D WritePro Interface</Item5>
+      <Item6>4D Mobile App Server</Item6>
+      <Item7>4D Widgets</Item7>
+    </ArrayExcludedComponentName>
+    <Licenses>
+      <ArrayLicenseMac>
+        <ItemsCount>1</ItemsCount>
+        <Item1>Mini Innovator:Users:chris:Library:Application Support:4D:Licenses:R-PNUD180UUC0018PHJG09028.license4D</Item1>
+      </ArrayLicenseMac>
+    </Licenses>
+    <SignApplication>
+      <MacSignature>False</MacSignature>
+      <MacCertificate></MacCertificate>
+      <AdHocSign>True</AdHocSign>
+    </SignApplication>
+  </BuildApp>
+
+
+
+</Preferences4D>

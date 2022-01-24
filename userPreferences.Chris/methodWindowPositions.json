@@ -1,0 +1,284 @@
+{
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"left": -2304,
+		"top": 257,
+		"width": 2194,
+		"height": 1107
+	},
+	"Sources/Classes/FinderGroup.4dm": {
+		"left": 2967,
+		"top": 389,
+		"width": 1324,
+		"height": 811
+	},
+	"Sources/Forms/IS_DateEntry/ObjectMethods/btn_TinyCalendar.4dm": {
+		"left": -2304,
+		"top": 257,
+		"width": 2194,
+		"height": 1107
+	},
+	"Sources/Forms/IS_DateEntry/ObjectMethods/TinyCalendar.4dm": {
+		"left": -2304,
+		"top": 257,
+		"width": 2194,
+		"height": 1107
+	},
+	"Sources/Classes/Finder.4dm": {
+		"left": 2931,
+		"top": 124,
+		"width": 1324,
+		"height": 811
+	},
+	"Sources/Methods/NewFinderGroup.4dm": {
+		"left": -1969,
+		"top": 251,
+		"width": 1942,
+		"height": 940
+	},
+	"Sources/Methods/NewFinderColumn.4dm": {
+		"left": -1969,
+		"top": 279,
+		"width": 1942,
+		"height": 912
+	},
+	"Sources/Methods/NewFinder.4dm": {
+		"left": 1026,
+		"top": 261,
+		"width": 1224,
+		"height": 940
+	},
+	"Trash/Methods/(Finder_Do).4dm": {
+		"left": 160,
+		"top": 584,
+		"width": 1224,
+		"height": 912
+	},
+	"Sources/Forms/Finder/method.4dm": {
+		"left": 2875,
+		"top": 254,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Forms/Finder/ObjectMethods/SB_Tab.4dm": {
+		"left": -1969,
+		"top": 307,
+		"width": 1942,
+		"height": 884
+	},
+	"Sources/Methods/doTinyCalendar.4dm": {
+		"left": 1031,
+		"top": 473,
+		"width": 1162,
+		"height": 860
+	},
+	"Sources/Methods/IS_DATEENTRY_UPDATEDATE.4dm": {
+		"left": 1179,
+		"top": 394,
+		"width": 1162,
+		"height": 860
+	},
+	"Sources/Forms/Date_Object_Widget_Test/method.4dm": {
+		"left": 646,
+		"top": 446,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/varDate.4dm": {
+		"left": 713,
+		"top": 323,
+		"width": 1108,
+		"height": 859
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/entryDate.4dm": {
+		"left": 713,
+		"top": 323,
+		"width": 1108,
+		"height": 859
+	},
+	"Sources/Methods/getISClasses.4dm": {
+		"left": 713,
+		"top": 323,
+		"width": 1108,
+		"height": 859
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/procDate1.4dm": {
+		"left": 995,
+		"top": 287,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Forms/IS_DateEntry/method.4dm": {
+		"left": 1121,
+		"top": 224,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Methods/OBJ_GetObjCharacteristics.4dm": {
+		"left": 1295,
+		"top": 487,
+		"width": 1162,
+		"height": 860
+	},
+	"Sources/Methods/OBJ_GetFormInfo.4dm": {
+		"left": 1324,
+		"top": 422,
+		"width": 1162,
+		"height": 860
+	},
+	"Sources/Forms/IS_DatePicker/ObjectMethods/dummyAccept.4dm": {
+		"left": 1121,
+		"top": 224,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Methods/IS_Request.4dm": {
+		"left": 1324,
+		"top": 422,
+		"width": 1162,
+		"height": 860
+	},
+	"Sources/Methods/IS_Replace.4dm": {
+		"left": 1324,
+		"top": 422,
+		"width": 1162,
+		"height": 860
+	},
+	"Sources/Methods/IS_DATEENTRY_INIT.4dm": {
+		"left": 582,
+		"top": 111,
+		"width": 1290,
+		"height": 989
+	},
+	"Sources/Methods/FORM_GetNextEntryObjName.4dm": {
+		"left": 582,
+		"top": 139,
+		"width": 1290,
+		"height": 961
+	},
+	"Sources/Methods/FORM_GetObjects.4dm": {
+		"left": 1005,
+		"top": 139,
+		"width": 1290,
+		"height": 961
+	},
+	"Sources/Methods/colFind.4dm": {
+		"left": 603,
+		"top": 171,
+		"width": 1290,
+		"height": 961
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/formDate.4dm": {
+		"left": 646,
+		"top": 446,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/formDate_Picker.4dm": {
+		"left": 646,
+		"top": 446,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Methods/IS_DateButtonsOnOff.4dm": {
+		"left": 213,
+		"top": 186,
+		"width": 1156,
+		"height": 553
+	},
+	"Sources/Forms/Finder/ObjectMethods/searchFor.4dm": {
+		"left": 2875,
+		"top": 254,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Methods/IS_DateEntryIsInitialized.4dm": {
+		"left": 995,
+		"top": 287,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/btnNewEntity.4dm": {
+		"left": 646,
+		"top": 446,
+		"width": 1547,
+		"height": 877
+	},
+	"Sources/Methods/IS_DATEENTRY_REFRESH.4dm": {
+		"left": 1121,
+		"top": 224,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Methods/IS_DATEENTRY_DO_INIT.4dm": {
+		"left": 995,
+		"top": 287,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Methods/IS_DATEENTRY_DO_REFRESH.4dm": {
+		"left": 1121,
+		"top": 224,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Methods/randomDate.4dm": {
+		"left": 1074,
+		"top": 450,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Methods/IS_DATEPICKER_INIT.4dm": {
+		"left": 1181,
+		"top": 170,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/entryDate_Picker.4dm": {
+		"left": 1181,
+		"top": 170,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Methods/IS_DATEPICKER_REFRESH.4dm": {
+		"left": 1121,
+		"top": 224,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Methods/IS_DATEENTRY_UPDATE_DATEDISPLAY.4dm": {
+		"left": 653,
+		"top": 432,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Forms/IS_DatePicker/method.4dm": {
+		"left": 1121,
+		"top": 224,
+		"width": 1363,
+		"height": 877
+	},
+	"Sources/Methods/IS_DATEPICKER_DO_REFRESH.4dm": {
+		"left": -1360,
+		"top": 53,
+		"width": 1363,
+		"height": 905
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/btnBump.4dm": {
+		"left": 856,
+		"top": 460,
+		"width": 1183,
+		"height": 566
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/btnDebug.4dm": {
+		"left": 856,
+		"top": 460,
+		"width": 1183,
+		"height": 566
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/btnTrace.4dm": {
+		"left": 856,
+		"top": 460,
+		"width": 1183,
+		"height": 566
+	}
+}

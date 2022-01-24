@@ -1,0 +1,45 @@
+{
+	"FinderGroup": {
+		"functions": {
+			"addFinder": 2147483568,
+			"lbSetHeight": 2147483567,
+			"lbSetPosition": 2147483566,
+			"lbSetColumns": 2147483565,
+			"lbSetColVisibility": 2147483564,
+			"fontColorExpression": 2147483563,
+			"lbFontColorExpression": 2147483562,
+			"lbColName": 2147483561,
+			"matchCount": 2147483560,
+			"lbRowMatchLevel": 2147483559,
+			"lbInitMatches": 2147483558,
+			"configureLB": 2147483557,
+			"lbSetVisibility": 2147483556,
+			"doQuery": 2147483555,
+			"lbPick": 2147483554,
+			"doUpdate": 2147483553,
+			"doPrevious": 2147483552,
+			"doNext": 2147483551,
+			"do": 2147483550
+		},
+		"constructorID": 2147483569
+	},
+	"FinderColumn": {
+		"functions": {
+			"lbName": 2147483573,
+			"lbColName": 2147483572,
+			"setLBColumn": 2147483571
+		},
+		"constructorID": 2147483574
+	},
+	"Finder": {
+		"functions": {
+			"makeColumns": 2147483581,
+			"init": 2147483580,
+			"doWidgetInitLBSpecs": 2147483579,
+			"doWidgetInit": 2147483578,
+			"doWidget": 2147483577,
+			"do": 2147483576
+		},
+		"constructorID": 2147483582
+	}
+}

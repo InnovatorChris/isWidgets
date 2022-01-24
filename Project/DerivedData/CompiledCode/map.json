@@ -1,0 +1,1097 @@
+{
+	"map": [
+		{
+			"id": 2147483647,
+			"path": "Sources/Methods/NewFinderColumn.4dm",
+			"parameters": [
+				{
+					"parameterName": "finderCol",
+					"parameterType": 1710
+				},
+				{
+					"parameterName": "colNo",
+					"parameterType": 283
+				},
+				{
+					"parameterName": "formula",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "width",
+					"parameterType": 283
+				},
+				{
+					"parameterName": "valueType",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483646,
+			"path": "Sources/Methods/IS_Request.4dm"
+		},
+		{
+			"id": 2147483645,
+			"path": "Sources/Methods/randomDate.4dm"
+		},
+		{
+			"id": 2147483644,
+			"path": "Sources/Methods/IS_Replace.4dm"
+		},
+		{
+			"id": 2147483643,
+			"path": "Sources/Methods/IS_DATEPICKER_DO_INIT.4dm"
+		},
+		{
+			"id": 2147483642,
+			"path": "Sources/Methods/IS_DATEENTRY_REFRESH.4dm",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "name",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483641,
+			"path": "Sources/Methods/ArrayToCollection.4dm"
+		},
+		{
+			"id": 2147483640,
+			"path": "Sources/Methods/FORM_GetObjects.4dm"
+		},
+		{
+			"id": 2147483639,
+			"path": "Sources/Methods/IS_DATEPICKER_UPDATEDATE.4dm"
+		},
+		{
+			"id": 2147483638,
+			"path": "Sources/Methods/IS_DateEntry_doBumper.4dm"
+		},
+		{
+			"id": 2147483637,
+			"path": "Sources/Methods/IS_DATEENTRY_UPDATE_DATEDISPLAY.4dm"
+		},
+		{
+			"id": 2147483636,
+			"path": "Sources/Methods/NewFinderGroup.4dm"
+		},
+		{
+			"id": 2147483635,
+			"path": "Sources/Methods/PopupForm.4dm"
+		},
+		{
+			"id": 2147483634,
+			"path": "Sources/Methods/IS_DATEPICKER_INIT.4dm",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "attributeName",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483633,
+			"path": "Sources/Methods/IS_YearMonthEntry_GetContainer.4dm"
+		},
+		{
+			"id": 2147483632,
+			"path": "Sources/Methods/IS_DATEENTRY_UPDATEDATE.4dm"
+		},
+		{
+			"id": 2147483631,
+			"path": "Sources/Methods/IS_YEARMONTHENTRY_INIT.4dm"
+		},
+		{
+			"id": 2147483630,
+			"path": "Sources/Methods/IS_DateEntryIsInitialized.4dm"
+		},
+		{
+			"id": 2147483629,
+			"path": "Sources/Methods/FO_Get.4dm",
+			"parameters": [
+				{
+					"parameterName": "result",
+					"parameterType": 1683
+				},
+				{
+					"parameterName": "reqNo",
+					"parameterType": 283
+				},
+				{
+					"parameterName": "formName",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "pageNo",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483628,
+			"path": "Sources/Methods/OBJ_GetFormInfo.4dm"
+		},
+		{
+			"id": 2147483627,
+			"path": "Sources/Methods/IS_YEARMONTHENTRY_UPDATE.4dm"
+		},
+		{
+			"id": 2147483626,
+			"path": "Sources/Methods/IS_YEARMONTHENTRY_DOBUMPER.4dm"
+		},
+		{
+			"id": 2147483625,
+			"path": "Sources/Methods/PopupFormPosition.4dm",
+			"parameters": [
+				{
+					"parameterName": "posObj",
+					"parameterType": 1216
+				},
+				{
+					"parameterName": "formDefn",
+					"parameterType": 1216
+				},
+				{
+					"parameterName": "posChoice",
+					"parameterType": 283
+				},
+				{
+					"parameterName": "masterWinRef",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483624,
+			"path": "Sources/Methods/OBJ_SET_OBJ_CHARACTERISTICS.4dm"
+		},
+		{
+			"id": 2147483623,
+			"path": "Sources/Methods/IS_DATEENTRY_INIT.4dm",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "attributeName",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "nextEntryObject",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "placeHolder",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483622,
+			"path": "Sources/Methods/FirstDayOfMonth.4dm"
+		},
+		{
+			"id": 2147483621,
+			"path": "Sources/Methods/MaxValue.4dm"
+		},
+		{
+			"id": 2147483620,
+			"path": "Sources/Methods/IS_DATEPICKER_BUMP_DAY.4dm"
+		},
+		{
+			"id": 2147483619,
+			"path": "Sources/Methods/FORM_GetNextEntryObjName.4dm"
+		},
+		{
+			"id": 2147483618,
+			"path": "Sources/Methods/colFind.4dm"
+		},
+		{
+			"id": 2147483617,
+			"path": "Sources/Methods/IS_DATEENTRY_DO_REFRESH.4dm"
+		},
+		{
+			"id": 2147483616,
+			"path": "Sources/Methods/FC_Widget_Do.4dm"
+		},
+		{
+			"id": 2147483615,
+			"path": "Sources/Methods/OBJ_GetObjCharacteristics.4dm"
+		},
+		{
+			"id": 2147483614,
+			"path": "Sources/Methods/IS_DATEPICKER_UPDATE_DISPLAY.4dm"
+		},
+		{
+			"id": 2147483613,
+			"path": "Sources/Methods/colGetPropertyNames.4dm"
+		},
+		{
+			"id": 2147483612,
+			"path": "Sources/Methods/FirstDayOfYear.4dm"
+		},
+		{
+			"id": 2147483611,
+			"path": "Sources/Methods/IS_DATEPICKER_CONFIG_CALENDAR.4dm"
+		},
+		{
+			"id": 2147483610,
+			"path": "Sources/Methods/IS_DateButtonsOnOff.4dm",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "onFlag",
+					"parameterType": 305
+				},
+				{
+					"parameterName": "choiceName",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483609,
+			"path": "Sources/Methods/doTinyCalendar.4dm"
+		},
+		{
+			"id": 2147483608,
+			"path": "Sources/Methods/OBJ_SetWindowInfo.4dm"
+		},
+		{
+			"id": 2147483607,
+			"path": "Sources/Methods/IS_DATEENTRY_EXIT.4dm"
+		},
+		{
+			"id": 2147483606,
+			"path": "Sources/Methods/Obj_SetAttrVals.4dm"
+		},
+		{
+			"id": 2147483605,
+			"path": "Sources/Methods/IS_DATEENTRY_DO_INIT.4dm",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "attributeName",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "nextEntryObject",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "placeHolder",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483604,
+			"path": "Sources/Methods/IS_DATEPICKER_FORMAT_SLOT.4dm"
+		},
+		{
+			"id": 2147483603,
+			"path": "Sources/Methods/NewFinder.4dm",
+			"parameters": [
+				{
+					"parameterName": "finder",
+					"parameterType": 1710
+				},
+				{
+					"parameterName": "finderGroup",
+					"parameterType": 1710
+				},
+				{
+					"parameterName": "containerName",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "dClass",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "maxRows",
+					"parameterType": 283
+				},
+				{
+					"parameterName": "placeHolder",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "columns",
+					"parameterType": 1488
+				},
+				{
+					"parameterName": "orderBy",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "col_QuerySpecs",
+					"parameterType": 1488
+				},
+				{
+					"parameterName": "isShowAllOnEntry",
+					"parameterType": 305
+				},
+				{
+					"parameterName": "isDoNotDraw",
+					"parameterType": 305
+				}
+			]
+		},
+		{
+			"id": 2147483602,
+			"path": "Sources/Methods/IS_DATEPICKER_REFRESH.4dm",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "name",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483601,
+			"path": "Sources/Methods/OBJ_GetWindowInfo.4dm"
+		},
+		{
+			"id": 2147483600,
+			"path": "Sources/Methods/getISClasses.4dm"
+		},
+		{
+			"id": 2147483599,
+			"path": "Sources/Methods/MinValue.4dm"
+		},
+		{
+			"id": 2147483598,
+			"path": "Sources/Methods/FirstDayOfWeek.4dm"
+		},
+		{
+			"id": 2147483597,
+			"path": "Sources/Methods/Mask.4dm"
+		},
+		{
+			"id": 2147483596,
+			"path": "Sources/Methods/IS_DATEPICKER_DO_REFRESH.4dm"
+		},
+		{
+			"id": 2147483595,
+			"path": "Sources/Methods/IS_YEARMONTHENTRY_DO_INIT.4dm"
+		},
+		{
+			"id": 2147483594,
+			"path": "Sources/Methods/FormatCode.4dm"
+		},
+		{
+			"id": 2147483593,
+			"path": "Sources/Methods/IS_DateEntry_GetContainerDate.4dm"
+		},
+		{
+			"id": 2147483592,
+			"path": "Sources/Methods/IS_YEARMONTHENTRY_EXIT.4dm"
+		},
+		{
+			"id": 2147483591,
+			"path": "Trash/Methods/(Finder_Do).4dm"
+		},
+		{
+			"id": 2147483590,
+			"path": "Trash/Methods/(IS_YEARMONTHENTRY_INIT).4dm"
+		},
+		{
+			"id": 2147483589,
+			"path": "Trash/Methods/(IS_YearMonthEntry_GetContainer).4dm"
+		},
+		{
+			"id": 2147483588,
+			"path": "Trash/Methods/(IS_YEARMONTHENTRY_EXIT).4dm"
+		},
+		{
+			"id": 2147483587,
+			"path": "Trash/Methods/(IS_YEARMONTHENTRY_DO_INIT).4dm"
+		},
+		{
+			"id": 2147483586,
+			"path": "Trash/Methods/(IS_YEARMONTHENTRY_DOBUMPER).4dm"
+		},
+		{
+			"id": 2147483585,
+			"path": "Trash/Methods/(IS_DateDo).4dm"
+		},
+		{
+			"id": 2147483584,
+			"path": "Trash/Methods/(IS_YEARMONTHENTRY_UPDATE).4dm"
+		},
+		{
+			"id": 2147483583,
+			"path": "Sources/Classes/Finder.4dm"
+		},
+		{
+			"id": 2147483582,
+			"path": "Sources/Classes/Finder.4dm",
+			"function": "#",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "fg",
+					"parameterType": 1710
+				},
+				{
+					"parameterName": "containerName",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "dataClass",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "maxRows",
+					"parameterType": 283
+				},
+				{
+					"parameterName": "placeHolder",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "columns",
+					"parameterType": 1488
+				},
+				{
+					"parameterName": "orderBy",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "col_QuerySpecs",
+					"parameterType": 1488
+				},
+				{
+					"parameterName": "showAllOnEntry",
+					"parameterType": 305
+				},
+				{
+					"parameterName": "isDoNotDraw",
+					"parameterType": 305
+				}
+			]
+		},
+		{
+			"id": 2147483581,
+			"path": "Sources/Classes/Finder.4dm",
+			"function": "makeColumns",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "columns",
+					"parameterType": 1488
+				}
+			]
+		},
+		{
+			"id": 2147483580,
+			"path": "Sources/Classes/Finder.4dm",
+			"function": "init",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483579,
+			"path": "Sources/Classes/Finder.4dm",
+			"function": "doWidgetInitLBSpecs",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483578,
+			"path": "Sources/Classes/Finder.4dm",
+			"function": "doWidgetInit",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483577,
+			"path": "Sources/Classes/Finder.4dm",
+			"function": "doWidget",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "msg",
+					"parameterType": 1683
+				}
+			]
+		},
+		{
+			"id": 2147483576,
+			"path": "Sources/Classes/Finder.4dm",
+			"function": "do",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 1216
+				},
+				{
+					"parameterName": "event",
+					"parameterType": 1216
+				}
+			]
+		},
+		{
+			"id": 2147483575,
+			"path": "Sources/Classes/FinderColumn.4dm"
+		},
+		{
+			"id": 2147483574,
+			"path": "Sources/Classes/FinderColumn.4dm",
+			"function": "#",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "colNo",
+					"parameterType": 283
+				},
+				{
+					"parameterName": "theFormula",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "width",
+					"parameterType": 283
+				},
+				{
+					"parameterName": "dataType",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483573,
+			"path": "Sources/Classes/FinderColumn.4dm",
+			"function": "lbName",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483572,
+			"path": "Sources/Classes/FinderColumn.4dm",
+			"function": "lbColName",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "index",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483571,
+			"path": "Sources/Classes/FinderColumn.4dm",
+			"function": "setLBColumn",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483570,
+			"path": "Sources/Classes/FinderGroup.4dm"
+		},
+		{
+			"id": 2147483569,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "#",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483568,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "addFinder",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "finder",
+					"parameterType": 1710
+				}
+			]
+		},
+		{
+			"id": 2147483567,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "lbSetHeight",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483566,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "lbSetPosition",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483565,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "lbSetColumns",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483564,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "lbSetColVisibility",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483563,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "fontColorExpression",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 1683
+				},
+				{
+					"parameterName": "row",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483562,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "lbFontColorExpression",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 1683
+				},
+				{
+					"parameterName": "row",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483561,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "lbColName",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "index",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483560,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "matchCount",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483559,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "lbRowMatchLevel",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 283
+				},
+				{
+					"parameterName": "lbRow",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483558,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "lbInitMatches",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483557,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "configureLB",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483556,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "lbSetVisibility",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "isVisible",
+					"parameterType": 305
+				}
+			]
+		},
+		{
+			"id": 2147483555,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "doQuery",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483554,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "lbPick",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "itemPos",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483553,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "doUpdate",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483552,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "doPrevious",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483551,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "doNext",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483550,
+			"path": "Sources/Classes/FinderGroup.4dm",
+			"function": "do",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 1216
+				},
+				{
+					"parameterName": "event",
+					"parameterType": 1216
+				}
+			]
+		},
+		{
+			"id": 2147483549,
+			"path": "Sources/DatabaseMethods/onStartup.4dm"
+		},
+		{
+			"id": 2147483548,
+			"path": "Sources/Forms/IS_DateEntry/method.4dm"
+		},
+		{
+			"id": 2147483547,
+			"path": "Sources/Forms/IS_DatePicker/method.4dm"
+		},
+		{
+			"id": 2147483546,
+			"path": "Sources/Forms/IS_Request/method.4dm"
+		},
+		{
+			"id": 2147483545,
+			"path": "Sources/Forms/IS_DatePicker/ObjectMethods/Month_Ahead.4dm"
+		},
+		{
+			"id": 2147483544,
+			"path": "Sources/Forms/IS_DatePicker/ObjectMethods/Mon_Back.4dm"
+		},
+		{
+			"id": 2147483543,
+			"path": "Sources/Forms/IS_DatePicker/ObjectMethods/Mon_Ahead.4dm"
+		},
+		{
+			"id": 2147483542,
+			"path": "Sources/Forms/IS_DatePicker/ObjectMethods/dummyAccept.4dm"
+		},
+		{
+			"id": 2147483541,
+			"path": "Sources/Forms/IS_DatePicker/ObjectMethods/Year_Back.4dm"
+		},
+		{
+			"id": 2147483540,
+			"path": "Sources/Forms/IS_DatePicker/ObjectMethods/Year_Ahead.4dm"
+		},
+		{
+			"id": 2147483539,
+			"path": "Sources/Forms/IS_DatePicker/ObjectMethods/Day_Back.4dm"
+		},
+		{
+			"id": 2147483538,
+			"path": "Sources/Forms/IS_DatePicker/ObjectMethods/Month_Back.4dm"
+		},
+		{
+			"id": 2147483537,
+			"path": "Sources/Forms/IS_DatePicker/ObjectMethods/dayGrid.4dm"
+		},
+		{
+			"id": 2147483536,
+			"path": "Sources/Forms/IS_DatePicker/ObjectMethods/Week_Back.4dm"
+		},
+		{
+			"id": 2147483535,
+			"path": "Sources/Forms/IS_DatePicker/ObjectMethods/Week_Ahead.4dm"
+		},
+		{
+			"id": 2147483534,
+			"path": "Sources/Forms/IS_DatePicker/ObjectMethods/btn_Today.4dm"
+		},
+		{
+			"id": 2147483533,
+			"path": "Sources/Forms/IS_DatePicker/ObjectMethods/Day_Ahead.4dm"
+		},
+		{
+			"id": 2147483532,
+			"path": "Sources/Forms/IS_DateEntry/ObjectMethods/btn_TinyCalendar.4dm"
+		},
+		{
+			"id": 2147483531,
+			"path": "Sources/Forms/IS_DateEntry/ObjectMethods/btn_OK.4dm"
+		},
+		{
+			"id": 2147483530,
+			"path": "Sources/Forms/IS_DateEntry/ObjectMethods/rightArrow.4dm"
+		},
+		{
+			"id": 2147483529,
+			"path": "Sources/Forms/IS_DateEntry/ObjectMethods/leftArrow.4dm"
+		},
+		{
+			"id": 2147483528,
+			"path": "Sources/Forms/IS_DateEntry/ObjectMethods/bumperDown.4dm"
+		},
+		{
+			"id": 2147483527,
+			"path": "Sources/Forms/IS_DateEntry/ObjectMethods/bumperUp.4dm"
+		},
+		{
+			"id": 2147483526,
+			"path": "Sources/Forms/IS_DateEntry/ObjectMethods/TinyCalendar.4dm"
+		},
+		{
+			"id": 2147483525,
+			"path": "Sources/Forms/IS_DateEntry/ObjectMethods/theYear.4dm"
+		},
+		{
+			"id": 2147483524,
+			"path": "Sources/Forms/IS_DateEntry/ObjectMethods/btn_Today.4dm"
+		},
+		{
+			"id": 2147483523,
+			"path": "Sources/Forms/IS_DateEntry/ObjectMethods/theMonth.4dm"
+		},
+		{
+			"id": 2147483522,
+			"path": "Sources/Forms/IS_DateEntry/ObjectMethods/bumper.4dm"
+		},
+		{
+			"id": 2147483521,
+			"path": "Sources/Forms/IS_DateEntry/ObjectMethods/theDay.4dm"
+		},
+		{
+			"id": 2147483520,
+			"path": "Sources/Forms/Finder/method.4dm"
+		},
+		{
+			"id": 2147483519,
+			"path": "Sources/Forms/Finder/ObjectMethods/SB_Tab.4dm"
+		},
+		{
+			"id": 2147483518,
+			"path": "Sources/Forms/Finder/ObjectMethods/SB_YesButton.4dm"
+		},
+		{
+			"id": 2147483517,
+			"path": "Sources/Forms/Finder/ObjectMethods/SB_CancelBtn.4dm"
+		},
+		{
+			"id": 2147483516,
+			"path": "Sources/Forms/Finder/ObjectMethods/searchFor.4dm"
+		},
+		{
+			"id": 2147483515,
+			"path": "Sources/Forms/Finder/ObjectMethods/SB_ShiftTab.4dm"
+		},
+		{
+			"id": 2147483514,
+			"path": "Sources/Forms/IS_Alert/method.4dm"
+		},
+		{
+			"id": 2147483513,
+			"path": "Sources/Forms/Date_Object_Widget_Test/method.4dm"
+		},
+		{
+			"id": 2147483512,
+			"path": "Sources/Forms/Date_Object_Widget_Test/ObjectMethods/btnNewEntity.4dm"
+		},
+		{
+			"id": 2147483511,
+			"path": "Sources/Forms/Date_Object_Widget_Test/ObjectMethods/procDate2.4dm"
+		},
+		{
+			"id": 2147483510,
+			"path": "Sources/Forms/Date_Object_Widget_Test/ObjectMethods/procDate1.4dm"
+		},
+		{
+			"id": 2147483509,
+			"path": "Sources/Forms/Date_Object_Widget_Test/ObjectMethods/formDate_Picker.4dm"
+		},
+		{
+			"id": 2147483508,
+			"path": "Sources/Forms/Date_Object_Widget_Test/ObjectMethods/btnBump.4dm"
+		},
+		{
+			"id": 2147483507,
+			"path": "Sources/Forms/Date_Object_Widget_Test/ObjectMethods/btnTrace.4dm"
+		},
+		{
+			"id": 2147483506,
+			"path": "Sources/Forms/Date_Object_Widget_Test/ObjectMethods/entryDate_Picker.4dm"
+		},
+		{
+			"id": 2147483505,
+			"path": "Sources/Forms/Date_Object_Widget_Test/ObjectMethods/entryDate.4dm"
+		},
+		{
+			"id": 2147483504,
+			"path": "Sources/Forms/Date_Object_Widget_Test/ObjectMethods/formDate.4dm"
+		},
+		{
+			"id": 2147483503,
+			"path": "Sources/Forms/IS_Confirm/method.4dm"
+		},
+		{
+			"id": 2147483502,
+			"path": "Trash/Forms/(IS_YearMonthEntry)/method.4dm"
+		}
+	],
+	"targets": {
+		"x86_64_generic": true
+	},
+	"arch64": true
+}

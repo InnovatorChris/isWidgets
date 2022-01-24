@@ -1,0 +1,35 @@
+button {
+	font-family: SegoeUI;
+	font-size: 12px;
+	color: #000099; /* a darker blue */
+}
+
+button[style=toolbar] {
+	font-family: SegoeUI;
+	font-size: 13px;
+	height: 48px;
+	width: 48px;
+	color: #000099; /* a darker blue */
+}
+
+.default {
+	font-family: SegoeUI;
+	font-size: 12px;
+	height: 16px;
+}
+
+.LBColumn {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+.White_Text_Header {
+	font-family: Lucida Sans;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.buttonEmoji {
+	font-family: SegoeUI;
+	font-size: 18px;
+}

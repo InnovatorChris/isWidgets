@@ -1,0 +1,1034 @@
+{
+	"destination": "detailScreen",
+	"shared": true,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 168,
+	"height": 190,
+	"markerBody": 190,
+	"markerBreak": 190,
+	"markerFooter": 190,
+	"events": [
+		"onLoad",
+		"onActivate",
+		"onDeactivate",
+		"onBoundVariableChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 168,
+					"height": 44
+				}
+			}
+		},
+		{
+			"objects": {
+				"dayGrid": {
+					"type": "buttonGrid",
+					"top": 44,
+					"left": 1,
+					"width": 167,
+					"height": 146,
+					"columnCount": 7,
+					"rowCount": 6,
+					"borderStyle": "solid",
+					"method": "ObjectMethods/dayGrid.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"DisplayedMonth": {
+					"type": "text",
+					"top": 8,
+					"left": 16,
+					"width": 134,
+					"height": 19,
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Month"
+				},
+				"Year_Ahead": {
+					"type": "button",
+					"top": 28,
+					"left": 461,
+					"width": 32,
+					"height": 30,
+					"shortcutKey": "[down arrow]",
+					"shortcutAccel": true,
+					"text": "⌘▼",
+					"focusable": false,
+					"method": "ObjectMethods/Year_Ahead.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"Year_Back": {
+					"type": "button",
+					"top": 64,
+					"left": 461,
+					"width": 32,
+					"height": 30,
+					"shortcutKey": "[up arrow]",
+					"shortcutAccel": true,
+					"text": "⌘▲",
+					"focusable": false,
+					"method": "ObjectMethods/Year_Back.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"Day_Ahead": {
+					"type": "button",
+					"top": 108,
+					"left": 247,
+					"width": 30,
+					"height": 30,
+					"shortcutKey": "[right arrow]",
+					"text": "▶",
+					"focusable": false,
+					"method": "ObjectMethods/Day_Ahead.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"Week_Ahead": {
+					"type": "button",
+					"top": 108,
+					"left": 461,
+					"width": 30,
+					"height": 30,
+					"shortcutKey": "[down arrow]",
+					"text": "▼",
+					"focusable": false,
+					"method": "ObjectMethods/Week_Ahead.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"Day_Back": {
+					"type": "button",
+					"top": 143,
+					"left": 247,
+					"width": 30,
+					"height": 30,
+					"shortcutKey": "[left arrow]",
+					"text": "◀",
+					"focusable": false,
+					"method": "ObjectMethods/Day_Back.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"Week_Back": {
+					"type": "button",
+					"top": 145,
+					"left": 461,
+					"width": 30,
+					"height": 30,
+					"shortcutKey": "[up arrow]",
+					"text": "▲",
+					"focusable": false,
+					"method": "ObjectMethods/Week_Back.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"dummyAccept": {
+					"type": "button",
+					"top": 218,
+					"left": 273,
+					"width": 30,
+					"height": 30,
+					"shortcutKey": "[Return]",
+					"text": "⏎",
+					"focusable": false,
+					"method": "ObjectMethods/dummyAccept.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"btn_Today": {
+					"type": "button",
+					"top": 394,
+					"left": 555,
+					"width": 139,
+					"height": 23,
+					"shortcutKey": "t",
+					"text": "Today",
+					"focusable": false,
+					"method": "ObjectMethods/btn_Today.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"Picture6": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 168,
+					"height": 190,
+					"visibility": "hidden",
+					"pictureFormat": "tiled",
+					"picture": "/RESOURCES/Images/Calendar/CalendarPicker.png"
+				},
+				"formData": {
+					"type": "input",
+					"top": 341,
+					"left": 209,
+					"width": 254,
+					"height": 113,
+					"visibility": "hidden",
+					"dataSourceTypeHint": "object",
+					"focusable": false,
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"d0": {
+					"type": "text",
+					"top": 45,
+					"left": 1,
+					"width": 23,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d1": {
+					"type": "text",
+					"top": 45,
+					"left": 24,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d2": {
+					"type": "text",
+					"top": 45,
+					"left": 48,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d3": {
+					"type": "text",
+					"top": 45,
+					"left": 72,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d4": {
+					"type": "text",
+					"top": 45,
+					"left": 96,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d5": {
+					"type": "text",
+					"top": 45,
+					"left": 120,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d6": {
+					"type": "text",
+					"top": 45,
+					"left": 144,
+					"width": 23,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d7": {
+					"type": "text",
+					"top": 69,
+					"left": 1,
+					"width": 23,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d8": {
+					"type": "text",
+					"top": 69,
+					"left": 24,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d9": {
+					"type": "text",
+					"top": 69,
+					"left": 48,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d10": {
+					"type": "text",
+					"top": 69,
+					"left": 72,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d11": {
+					"type": "text",
+					"top": 69,
+					"left": 96,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d12": {
+					"type": "text",
+					"top": 69,
+					"left": 120,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d13": {
+					"type": "text",
+					"top": 69,
+					"left": 144,
+					"width": 23,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d14": {
+					"type": "text",
+					"top": 93,
+					"left": 1,
+					"width": 23,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d15": {
+					"type": "text",
+					"top": 93,
+					"left": 24,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d16": {
+					"type": "text",
+					"top": 93,
+					"left": 48,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d17": {
+					"type": "text",
+					"top": 93,
+					"left": 72,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d18": {
+					"type": "text",
+					"top": 93,
+					"left": 96,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d19": {
+					"type": "text",
+					"top": 93,
+					"left": 120,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d20": {
+					"type": "text",
+					"top": 93,
+					"left": 144,
+					"width": 23,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d21": {
+					"type": "text",
+					"top": 117,
+					"left": 1,
+					"width": 23,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d22": {
+					"type": "text",
+					"top": 117,
+					"left": 24,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d23": {
+					"type": "text",
+					"top": 117,
+					"left": 48,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d24": {
+					"type": "text",
+					"top": 117,
+					"left": 72,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d25": {
+					"type": "text",
+					"top": 117,
+					"left": 96,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d26": {
+					"type": "text",
+					"top": 117,
+					"left": 120,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d27": {
+					"type": "text",
+					"top": 117,
+					"left": 144,
+					"width": 23,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d28": {
+					"type": "text",
+					"top": 141,
+					"left": 1,
+					"width": 23,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d29": {
+					"type": "text",
+					"top": 141,
+					"left": 24,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d30": {
+					"type": "text",
+					"top": 141,
+					"left": 48,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d31": {
+					"type": "text",
+					"top": 141,
+					"left": 72,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d32": {
+					"type": "text",
+					"top": 141,
+					"left": 96,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d33": {
+					"type": "text",
+					"top": 141,
+					"left": 120,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d34": {
+					"type": "text",
+					"top": 141,
+					"left": 144,
+					"width": 23,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d35": {
+					"type": "text",
+					"top": 165,
+					"left": 1,
+					"width": 23,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d36": {
+					"type": "text",
+					"top": 165,
+					"left": 24,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d37": {
+					"type": "text",
+					"top": 165,
+					"left": 48,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d38": {
+					"type": "text",
+					"top": 165,
+					"left": 72,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d39": {
+					"type": "text",
+					"top": 165,
+					"left": 96,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d40": {
+					"type": "text",
+					"top": 165,
+					"left": 120,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"d41": {
+					"type": "text",
+					"top": 165,
+					"left": 144,
+					"width": 23,
+					"height": 24,
+					"fill": "#FFFACD",
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 14,
+					"text": "x"
+				},
+				"Mon_Ahead": {
+					"type": "button",
+					"top": 5,
+					"left": 144,
+					"width": 20,
+					"height": 20,
+					"shortcutKey": "",
+					"shortcutAccel": false,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Calendar/IconNext.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/Mon_Ahead.4dm",
+					"events": [
+						"onClick"
+					],
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false
+				},
+				"Mon_Back": {
+					"type": "button",
+					"top": 5,
+					"left": 1,
+					"width": 20,
+					"height": 20,
+					"shortcutKey": "",
+					"shortcutAccel": false,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Calendar/IconPrevious.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/Mon_Back.4dm",
+					"events": [
+						"onClick"
+					],
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false
+				},
+				"dateName1": {
+					"type": "text",
+					"top": 29,
+					"left": 0,
+					"width": 24,
+					"height": 14,
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 13,
+					"text": "Su"
+				},
+				"dateName2": {
+					"type": "text",
+					"top": 29,
+					"left": 24,
+					"width": 24,
+					"height": 14,
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 13,
+					"text": "Mo"
+				},
+				"dateName3": {
+					"type": "text",
+					"top": 29,
+					"left": 48,
+					"width": 24,
+					"height": 14,
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 13,
+					"text": "Tu"
+				},
+				"dateName4": {
+					"type": "text",
+					"top": 29,
+					"left": 72,
+					"width": 24,
+					"height": 14,
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 13,
+					"text": "We"
+				},
+				"dateName5": {
+					"type": "text",
+					"top": 29,
+					"left": 96,
+					"width": 24,
+					"height": 14,
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 13,
+					"text": "Th"
+				},
+				"dateName6": {
+					"type": "text",
+					"top": 29,
+					"left": 120,
+					"width": 24,
+					"height": 14,
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 13,
+					"text": "Fr"
+				},
+				"dateName7": {
+					"type": "text",
+					"top": 29,
+					"left": 144,
+					"width": 23,
+					"height": 14,
+					"textAlign": "center",
+					"fontFamily": "Calibri",
+					"fontSize": 13,
+					"text": "Sa"
+				},
+				"Text": {
+					"type": "text",
+					"top": 187,
+					"left": 247,
+					"width": 101,
+					"height": 17,
+					"visibility": "hidden",
+					"text": "<CR> Accept"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 0,
+					"left": 332,
+					"width": 129,
+					"height": 17,
+					"visibility": "hidden",
+					"text": "Arrow Key handlers"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 268,
+					"left": 209,
+					"width": 349,
+					"height": 65,
+					"visibility": "hidden",
+					"text": "Values for operating this widget are stored in the OBJECT variable of 'formData'. It is used much like the Form. object but without affecting the Container's Form object in the parent form"
+				},
+				"tx_MonthAhead": {
+					"type": "text",
+					"top": 36,
+					"left": 209,
+					"width": 229,
+					"height": 17,
+					"visibility": "hidden",
+					"text": "(right Month) ⌘▶ One Month Ahead"
+				},
+				"tx_MonthBack": {
+					"type": "text",
+					"top": 69,
+					"left": 209,
+					"width": 229,
+					"height": 17,
+					"visibility": "hidden",
+					"text": "(left Month) ⌘◀ One Month Back "
+				},
+				"tx_YearAhead": {
+					"type": "text",
+					"top": 33,
+					"left": 500,
+					"width": 149,
+					"height": 17,
+					"visibility": "hidden",
+					"text": "⌘▼ One Year Ahead"
+				},
+				"tx_YearBack": {
+					"type": "text",
+					"top": 70,
+					"left": 500,
+					"width": 149,
+					"height": 17,
+					"visibility": "hidden",
+					"text": "⌘▲ One Year Back"
+				},
+				"tx_DayAhead": {
+					"type": "text",
+					"top": 116,
+					"left": 289,
+					"width": 149,
+					"height": 17,
+					"visibility": "hidden",
+					"text": "▶ One Day Ahead"
+				},
+				"tx_DayBack": {
+					"type": "text",
+					"top": 150,
+					"left": 289,
+					"width": 149,
+					"height": 17,
+					"visibility": "hidden",
+					"text": "◀ One Day back "
+				},
+				"tx_WeekAhead": {
+					"type": "text",
+					"top": 113,
+					"left": 500,
+					"width": 149,
+					"height": 17,
+					"visibility": "hidden",
+					"text": "▼ One Week Ahead"
+				},
+				"tx_WeekBack": {
+					"type": "text",
+					"top": 151,
+					"left": 500,
+					"width": 149,
+					"height": 17,
+					"visibility": "hidden",
+					"text": "▲ One Week Back"
+				},
+				"dateDisplay": {
+					"type": "input",
+					"top": 194,
+					"left": 39,
+					"width": 86,
+					"height": 16,
+					"dataSourceTypeHint": "date",
+					"class": "InputArea",
+					"textAlign": "center",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"multiline": "no",
+					"placeholder": "Date",
+					"dateFormat": "abbreviated",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					],
+					"fontWeight": "bold"
+				},
+				"Month_Ahead": {
+					"type": "button",
+					"top": 36,
+					"left": 188,
+					"width": 20,
+					"height": 20,
+					"shortcutKey": "[right arrow]",
+					"shortcutAccel": true,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Calendar/IconNext.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/Month_Ahead.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"Month_Back": {
+					"type": "button",
+					"top": 68,
+					"left": 188,
+					"width": 20,
+					"height": 20,
+					"shortcutKey": "[left arrow]",
+					"shortcutAccel": true,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Calendar/IconPrevious.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/Month_Back.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"Preview": {
+				"visible": false,
+				"selectable": false,
+				"objects": [
+					"Picture6"
+				]
+			},
+			"View 3": {},
+			"View 4": {
+				"objects": [
+					"btn_Today",
+					"formData"
+				]
+			},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 109,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

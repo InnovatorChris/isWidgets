@@ -1,0 +1,289 @@
+﻿{
+	"destination": "detailScreen",
+	"shared": true,
+	"width": 70,
+	"height": 18,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onActivate",
+		"onDeactivate",
+		"onBoundVariableChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"FocusRing": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 53,
+					"height": 16,
+					"fill": "automatic",
+					"stroke": "transparent"
+				},
+				"Slash1": {
+					"type": "text",
+					"top": 4,
+					"left": 15,
+					"width": 8,
+					"height": 16,
+					"class": "default",
+					"textAlign": "center",
+					"text": "/"
+				},
+				"theMonth": {
+					"type": "input",
+					"top": 1,
+					"left": 1,
+					"width": 14,
+					"height": 16,
+					"dataSourceTypeHint": "number",
+					"class": "Buttons_12",
+					"textAlign": "right",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"entryFilter": "&9",
+					"min": 1,
+					"max": 12,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/theMonth.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange"
+					]
+				},
+				"theYear": {
+					"type": "input",
+					"top": 1,
+					"left": 23,
+					"width": 28,
+					"height": 16,
+					"dataSourceTypeHint": "number",
+					"class": "Buttons_12",
+					"textAlign": "right",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"entryFilter": "&9",
+					"min": 1,
+					"max": 2999,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/theYear.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange"
+					]
+				},
+				"bumper": {
+					"type": "stepper",
+					"top": 0,
+					"left": 56,
+					"width": 13,
+					"height": 18,
+					"visibility": "hidden",
+					"dataSource": "OBJECT Get pointer:C1124(Object named:K67:5; \"formData\")->[\"bumper\"]",
+					"min": -1000,
+					"max": 1000,
+					"method": "ObjectMethods/bumper.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"btn_OK": {
+					"type": "button",
+					"top": 124,
+					"left": 555,
+					"width": 59,
+					"height": 23,
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"focusable": false,
+					"method": "ObjectMethods/btn_OK.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bumperUp": {
+					"type": "button",
+					"top": 247,
+					"left": 58,
+					"width": 30,
+					"height": 30,
+					"visibility": "hidden",
+					"shortcutKey": "[up arrow]",
+					"text": "▲",
+					"focusable": false,
+					"method": "ObjectMethods/bumperUp.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"leftArrow": {
+					"type": "button",
+					"top": 247,
+					"left": 321,
+					"width": 30,
+					"height": 30,
+					"shortcutKey": "[left arrow]",
+					"text": "◀",
+					"focusable": false,
+					"method": "ObjectMethods/leftArrow.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bumperDown": {
+					"type": "button",
+					"top": 292,
+					"left": 58,
+					"width": 30,
+					"height": 30,
+					"visibility": "hidden",
+					"shortcutKey": "[down arrow]",
+					"text": "▼",
+					"focusable": false,
+					"method": "ObjectMethods/bumperDown.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rightArrow": {
+					"type": "button",
+					"top": 292,
+					"left": 321,
+					"width": 30,
+					"height": 30,
+					"shortcutKey": "[right arrow]",
+					"text": "▶",
+					"focusable": false,
+					"method": "ObjectMethods/rightArrow.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"formData": {
+					"type": "input",
+					"top": 76,
+					"left": 194,
+					"width": 254,
+					"height": 113,
+					"visibility": "hidden",
+					"dataSourceTypeHint": "object",
+					"focusable": false,
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Text": {
+					"type": "text",
+					"top": 254,
+					"left": 371,
+					"width": 209,
+					"height": 17,
+					"visibility": "hidden",
+					"text": "⇥ to next entry slot"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 209,
+					"left": 46,
+					"width": 194,
+					"height": 33,
+					"visibility": "hidden",
+					"text": "Arrow Key handlers\remulate BUMPER use up/down"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 0,
+					"left": 194,
+					"width": 349,
+					"height": 67,
+					"visibility": "hidden",
+					"text": "Values for operating this widget are stored in the OBJECT variable of 'formData'. It is used much like the Form. object but without affecting the Container's Form object in the parent form"
+				},
+				"tx_bumperDown": {
+					"type": "text",
+					"top": 254,
+					"left": 114,
+					"width": 133,
+					"height": 17,
+					"visibility": "hidden",
+					"text": "Advance (Increment)"
+				},
+				"tx_bumperUp1": {
+					"type": "text",
+					"top": 299,
+					"left": 114,
+					"width": 133,
+					"height": 17,
+					"visibility": "hidden",
+					"text": "Back (decrement)"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 299,
+					"left": 371,
+					"width": 209,
+					"height": 17,
+					"visibility": "hidden",
+					"text": "⇪⇥ to previous entry slot"
+				}
+			},
+			"entryOrder": [
+				"theMonth",
+				"theYear",
+				"bumper",
+				"btn_OK",
+				"bumperUp",
+				"leftArrow",
+				"bumperDown",
+				"rightArrow"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"FocusRing"
+				]
+			},
+			"View 3": {},
+			"View 4": {
+				"objects": [
+					"btn_OK",
+					"bumperUp",
+					"leftArrow",
+					"bumperDown",
+					"rightArrow",
+					"formData",
+					"Text3"
+				]
+			},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

@@ -1,0 +1,273 @@
+﻿{
+	"destination": "detailScreen",
+	"shared": true,
+	"width": 220,
+	"height": 30,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onActivate",
+		"onDeactivate",
+		"onLosingFocus",
+		"onGettingFocus",
+		"onDataChange",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBoundVariableChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"mac_SBMiddle": {
+					"type": "picture",
+					"top": 0,
+					"left": 30,
+					"width": 164,
+					"height": 30,
+					"visibility": "hidden",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/SearchBar/Mac/SB_Middle.png"
+				},
+				"mac_SBRight": {
+					"type": "picture",
+					"top": 0,
+					"left": 190,
+					"width": 30,
+					"height": 30,
+					"visibility": "hidden",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/SearchBar/Mac/SB_Right.png"
+				},
+				"mac_SBLeft": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 30,
+					"height": 30,
+					"visibility": "hidden",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/SearchBar/Mac/SB_Left.png"
+				},
+				"win_SBMiddle": {
+					"type": "picture",
+					"top": 0,
+					"left": 30,
+					"width": 164,
+					"height": 30,
+					"visibility": "hidden",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/SearchBar/Win/SB_Middle.png"
+				},
+				"win_SBRight": {
+					"type": "picture",
+					"top": 0,
+					"left": 188,
+					"width": 30,
+					"height": 30,
+					"visibility": "hidden",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/SearchBar/Win/SB_Right.png"
+				},
+				"win_SBLeft": {
+					"type": "picture",
+					"top": 0,
+					"left": 4,
+					"width": 30,
+					"height": 30,
+					"visibility": "hidden",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/SearchBar/Win/SB_Left.png"
+				},
+				"mac_FocusMiddle": {
+					"type": "picture",
+					"top": 0,
+					"left": 30,
+					"width": 164,
+					"height": 30,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/SearchBar/Mac/focusMiddle.png"
+				},
+				"mac_FocusLeft": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 30,
+					"height": 30,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/SearchBar/Mac/focusLeft.png"
+				},
+				"win_Glass": {
+					"type": "picture",
+					"top": 6,
+					"left": 199,
+					"width": 16,
+					"height": 16,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/SearchBar/Win/SB_Glass.png"
+				},
+				"mac_Glass": {
+					"type": "picture",
+					"top": 8,
+					"left": 10,
+					"width": 14,
+					"height": 15,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/SearchBar/Mac/SB_Glass.png"
+				},
+				"searchFor": {
+					"type": "input",
+					"top": 7,
+					"left": 25,
+					"width": 182,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/searchFor.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus",
+						"onAfterKeystroke",
+						"onAfterEdit"
+					],
+					"dataSource": ""
+				},
+				"mac_FocusRight": {
+					"type": "picture",
+					"top": 0,
+					"left": 190,
+					"width": 30,
+					"height": 30,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/SearchBar/Mac/focusRight.png"
+				},
+				"SB_CancelBtn": {
+					"type": "button",
+					"top": 102,
+					"left": 214,
+					"width": 87,
+					"height": 23,
+					"shortcutKey": "[Esc]",
+					"text": "ESC",
+					"class": "default",
+					"fontWeight": "bold",
+					"stroke": "#740074",
+					"focusable": false,
+					"method": "ObjectMethods/SB_CancelBtn.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"SB_YesButton": {
+					"type": "button",
+					"top": 130,
+					"left": 214,
+					"width": 87,
+					"height": 23,
+					"shortcutKey": "[Return]",
+					"text": "CR",
+					"class": "default",
+					"fontWeight": "bold",
+					"stroke": "#740074",
+					"focusable": false,
+					"method": "ObjectMethods/SB_YesButton.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"SB_Tab": {
+					"type": "button",
+					"top": 158,
+					"left": 214,
+					"width": 87,
+					"height": 23,
+					"shortcutKey": "[Tab]",
+					"text": "TAB",
+					"class": "default",
+					"fontWeight": "bold",
+					"stroke": "#740074",
+					"focusable": false,
+					"method": "ObjectMethods/SB_Tab.4dm",
+					"events": [
+						"onClick"
+					],
+					"shortcutAccel": false,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"visibility": "hidden"
+				},
+				"SB_ShiftTab": {
+					"type": "button",
+					"top": 186,
+					"left": 214,
+					"width": 87,
+					"height": 23,
+					"shortcutKey": "[Tab]",
+					"text": "ShiftTab",
+					"class": "default",
+					"fontWeight": "bold",
+					"stroke": "#740074",
+					"focusable": false,
+					"method": "ObjectMethods/SB_ShiftTab.4dm",
+					"events": [
+						"onClick"
+					],
+					"shortcutAccel": false,
+					"shortcutControl": false,
+					"shortcutShift": true,
+					"shortcutAlt": false,
+					"visibility": "hidden"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {
+				"objects": [
+					"mac_SBMiddle",
+					"mac_SBRight",
+					"mac_SBLeft",
+					"win_SBMiddle",
+					"win_SBRight",
+					"win_SBLeft",
+					"mac_FocusMiddle",
+					"mac_FocusLeft",
+					"win_Glass",
+					"mac_Glass",
+					"searchFor",
+					"mac_FocusRight"
+				]
+			},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 49
+}

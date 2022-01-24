@@ -1,0 +1,114 @@
+﻿{
+	"destination": "detailScreen",
+	"windowTitle": "Request",
+	"width": 480,
+	"height": 140,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "612pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"message": {
+					"type": "input",
+					"top": 9,
+					"left": 105,
+					"width": 356,
+					"height": 33,
+					"dataSource": "Form:C1466.message",
+					"stroke": "#FF0000",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"bYes": {
+					"type": "button",
+					"top": 98,
+					"left": 380,
+					"width": 81,
+					"height": 23,
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"focusable": false,
+					"defaultButton": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNo": {
+					"type": "button",
+					"top": 98,
+					"left": 287,
+					"width": 81,
+					"height": 23,
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture5": {
+					"type": "picture",
+					"top": 39,
+					"left": 25,
+					"width": 65,
+					"height": 65,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Icons/UI/question.png"
+				},
+				"answer": {
+					"type": "input",
+					"top": 55,
+					"left": 105,
+					"width": 356,
+					"height": 33,
+					"dataSource": "Form:C1466.answer",
+					"multiline": "no",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"bNo2": {
+					"type": "button",
+					"top": 179,
+					"left": 287,
+					"width": 101,
+					"height": 23,
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel Cmd .",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

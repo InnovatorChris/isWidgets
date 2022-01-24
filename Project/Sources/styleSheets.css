@@ -1,0 +1,221 @@
+text {
+	font-family: Lucida Grande;
+	font-size: 12px;
+}
+
+checkbox { 
+	font-family: Tahoma;
+	font-size: 12px;
+	height: 16px;
+	color: black;
+	}
+
+groupBox {
+	font-family: Lucida Grande;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	color: #006400;
+	}
+
+input {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: black;
+	font-weight: normal;
+	height: 16px;
+	text-align: left;
+	context: automatic;
+}
+
+.LBHeader {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0000CD ; /* a midnight blue */
+}
+
+.LBFooter {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.LBHeaderGrey {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #494949 ; /* this is a steely-grey */
+}
+
+.Group_12 {
+	font-family: Lucida Grande;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Group_14 {
+	font-family: Lucida Grande;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.LabelPlain {
+	font-family: Helvetica;
+	font-size: 10px;
+	text-align: right;	
+	color: #0000CD ; /* a midnight blue */
+}
+
+.Label {
+	font-family: Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;	
+	height: 16px;
+	color: #0000CD ; /* a midnight blue */
+}
+
+.Label_10 {
+	font-family: Helvetica;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: right;	
+	color: #0000CD ; /* a midnight blue */
+}
+
+.Label_14 {
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;	
+	color: #0000CD ; /* a midnight blue */
+}
+
+.Label_16 {
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: right;	
+	color: #0000CD ; /* a midnight blue */
+}
+
+.Label_24 {
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: right;	
+	color: #0000CD ; /* a midnight blue */
+}
+
+.White_Text_Header {
+	font-family: "Arial";
+	font-size: 10px;
+	font-weight: bold;
+	text-align: left;	
+	color: white;
+	background-color: crimson;
+}
+
+.Daily_Text_Header {
+	font-family: "Arial";
+	font-size: 10px;
+	font-weight: bold;
+	text-align: left;	
+	color: white;
+	background-color: crimson;
+}
+
+.InputArea {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: black;
+	font-weight: normal;
+	text-align: left;
+}
+
+.jsonText {
+	font-family: Lucida Grande;
+	font-size: 13px;
+}
+
+.Arial_10 {
+	font-family: Arial;
+	font-size: 10px;
+	color: black;
+	font-weight: normal;
+	text-align: left;
+}
+
+.Arial_10_Bold {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.Arial_18_Bold {
+	font-family: Arial;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+	text-align: left;
+}
+
+.Calibri_9 {
+	font-family: Calibri;
+	font-size: 9px;
+	color: black;
+	font-weight: normal;
+	text-align: left;
+}
+
+.Calibri_10 {
+	font-family: Calibri;
+	font-size: 10px;
+}
+
+.Calibri_11 {
+	font-family: Calibri;
+	font-size: 11px;
+}
+
+.Calibri_12 {
+	font-family: Calibri;
+	font-size: 12px;
+	color: black;
+	font-weight: normal;
+	text-align: left;
+}
+
+.Calibri_18 {
+	font-family: Calibri;
+	font-size: 18px;
+}
+
+.ListBox_Header {
+	font-family: Arial;
+	font-size: 12px;
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+}
+
+.maroonHeader {
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #941751 ; /* this is _RGB_MAROON */
+	}
+
+.redHeader {
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: red ; /* this is _RGB_MAROON */
+	}
+
+.EmojiSegoe {
+	font-family: Segoe UI Emoji;
+}

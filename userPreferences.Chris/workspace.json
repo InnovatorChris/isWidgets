@@ -1,0 +1,12 @@
+{
+	"editors": [
+		{
+			"type": "explorer"
+		},
+		{
+			"type": "form",
+			"id": 224,
+			"formName": "Date_Object_Widget_Test"
+		}
+	]
+}

@@ -1,0 +1,425 @@
+{
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-15T16:11:55.285Z"
+	},
+	"Sources/Classes/FinderGroup.4dm": {
+		"startSelection": 21,
+		"endSelection": 24,
+		"firstSelectedLine": 104,
+		"lastSelectedLine": 104,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-18T01:36:30.754Z"
+	},
+	"Sources/Forms/IS_DateEntry/ObjectMethods/btn_TinyCalendar.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-03T15:34:26.268Z"
+	},
+	"Sources/Forms/IS_DateEntry/ObjectMethods/TinyCalendar.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-03T15:34:26.266Z"
+	},
+	"Sources/Classes/Finder.4dm": {
+		"startSelection": 2,
+		"endSelection": 5,
+		"firstSelectedLine": 36,
+		"lastSelectedLine": 36,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-05-29T01:21:18.348Z"
+	},
+	"Sources/Methods/NewFinderGroup.4dm": {
+		"startSelection": 24,
+		"endSelection": 24,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T00:58:40.494Z"
+	},
+	"Sources/Methods/NewFinderColumn.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T00:54:20.055Z"
+	},
+	"Sources/Methods/NewFinder.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T01:02:55.564Z"
+	},
+	"Trash/Methods/(Finder_Do).4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T00:58:40.550Z"
+	},
+	"Sources/Forms/Finder/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 22,
+		"lastSelectedLine": 22,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-20T00:36:41.142Z"
+	},
+	"Sources/Forms/Finder/ObjectMethods/SB_Tab.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-02-14T02:41:38.097Z"
+	},
+	"Sources/Methods/doTinyCalendar.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 32,
+		"lastSelectedLine": 32,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-07T23:24:57.321Z"
+	},
+	"Sources/Methods/IS_DATEENTRY_UPDATEDATE.4dm": {
+		"startSelection": 0,
+		"endSelection": 13,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-06T19:12:09.377Z"
+	},
+	"Sources/Forms/Date_Object_Widget_Test/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T17:43:37.324Z"
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/varDate.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-10-11T18:04:56.213Z"
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/entryDate.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-03T15:34:26.288Z"
+	},
+	"Sources/Methods/getISClasses.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-10-31T21:41:39.618Z"
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/procDate1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T17:50:14.570Z"
+	},
+	"Sources/Forms/IS_DateEntry/method.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 34,
+		"lastSelectedLine": 34,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T19:57:29.397Z"
+	},
+	"Sources/Methods/OBJ_GetObjCharacteristics.4dm": {
+		"startSelection": 50,
+		"endSelection": 50,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-02-07T22:10:52.549Z"
+	},
+	"Sources/Methods/OBJ_GetFormInfo.4dm": {
+		"startSelection": 6,
+		"endSelection": 6,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-18T22:36:36.960Z"
+	},
+	"Sources/Forms/IS_DatePicker/ObjectMethods/dummyAccept.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 13,
+		"lastSelectedLine": 13,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-15T22:36:09.331Z"
+	},
+	"Sources/Methods/IS_Request.4dm": {
+		"startSelection": 73,
+		"endSelection": 73,
+		"firstSelectedLine": 20,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-18T22:35:09.848Z"
+	},
+	"Sources/Methods/IS_Replace.4dm": {
+		"startSelection": 5,
+		"endSelection": 5,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-02-07T22:10:52.522Z"
+	},
+	"Sources/Methods/IS_DATEENTRY_INIT.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-19T17:19:06.050Z"
+	},
+	"Sources/Methods/FORM_GetNextEntryObjName.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-19T17:19:48.250Z"
+	},
+	"Sources/Methods/FORM_GetObjects.4dm": {
+		"startSelection": 8,
+		"endSelection": 8,
+		"firstSelectedLine": 27,
+		"lastSelectedLine": 27,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-19T17:18:53.972Z"
+	},
+	"Sources/Methods/colFind.4dm": {
+		"startSelection": 119,
+		"endSelection": 119,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-19T17:19:40.807Z"
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/formDate.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T17:45:09.384Z"
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/formDate_Picker.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T20:31:03.872Z"
+	},
+	"Sources/Methods/IS_DateButtonsOnOff.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 37,
+		"lastSelectedLine": 37,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-19T20:38:56.370Z"
+	},
+	"Sources/Forms/Finder/ObjectMethods/searchFor.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-05-29T01:16:05.365Z"
+	},
+	"Sources/Methods/IS_DateEntryIsInitialized.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-05-18T20:07:36.623Z"
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/btnNewEntity.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 18,
+		"lastSelectedLine": 18,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T21:14:17.839Z"
+	},
+	"Sources/Methods/IS_DATEENTRY_REFRESH.4dm": {
+		"startSelection": 34,
+		"endSelection": 57,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T19:57:00.064Z"
+	},
+	"Sources/Methods/IS_DATEENTRY_DO_INIT.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 53,
+		"lastSelectedLine": 53,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T19:57:42.249Z"
+	},
+	"Sources/Methods/IS_DATEENTRY_DO_REFRESH.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T20:27:14.183Z"
+	},
+	"Sources/Methods/randomDate.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T19:59:17.532Z"
+	},
+	"Sources/Methods/IS_DATEPICKER_INIT.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T20:30:12.571Z"
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/entryDate_Picker.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T20:31:18.756Z"
+	},
+	"Sources/Methods/IS_DATEPICKER_REFRESH.4dm": {
+		"startSelection": 34,
+		"endSelection": 58,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T20:47:27.304Z"
+	},
+	"Sources/Methods/IS_DATEENTRY_UPDATE_DATEDISPLAY.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-08T04:36:46.075Z"
+	},
+	"Sources/Forms/IS_DatePicker/method.4dm": {
+		"startSelection": 99,
+		"endSelection": 99,
+		"firstSelectedLine": 15,
+		"lastSelectedLine": 15,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T21:12:41.721Z"
+	},
+	"Sources/Methods/IS_DATEPICKER_DO_REFRESH.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-21T21:11:22.316Z"
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/btnBump.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-03T15:34:26.289Z"
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/btnDebug.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-03T15:34:26.289Z"
+	},
+	"Sources/Forms/Date_Object_Widget_Test/ObjectMethods/btnTrace.4dm": {
+		"startSelection": 0,
+		"endSelection": 60,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-24T21:32:04.933Z"
+	}
+}

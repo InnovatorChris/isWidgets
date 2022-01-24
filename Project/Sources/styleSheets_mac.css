@@ -1,0 +1,46 @@
+button {
+	font-family: Lucida Grande;
+	font-size: 13px;
+	color: #000099; /* a darker blue */
+}
+
+combo {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: black;
+	font-weight: normal;
+	height: 21px;
+	text-align: left;
+
+}
+
+button[style=toolbar] {
+	font-family: Lucida Grande;
+	font-size: 13px;
+	height: 48px;
+	width: 48px;
+	color: #000099; /* a darker blue */
+}
+
+.default {
+	font-family: Lucida Grande;
+	font-size: 13px;
+	height: 16px;
+}
+
+.LBColumn {
+	font-family: Geneva;
+	font-size: 12px;
+}
+
+.White_Text_Header {
+	font-family: Lucida Sans;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.buttonEmoji {
+	font-family: AppleColorEmoji;
+	font-size: 18px;
+}
+
